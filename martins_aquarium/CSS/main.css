@@ -1,0 +1,102 @@
+@import 'location.css'; 
+
+body {
+  background-color: cadetblue;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.content{
+  display: flex;
+  border-top: 3px solid cadetblue;
+}
+
+.page__name {
+  font-family: sans-serif;
+  font-weight: bolder;
+}
+
+h1  {
+  background-color: white;
+  padding: 10px;
+  margin-top: 0px;
+}
+
+nav {
+  background-color: lightgray;
+  text-align: left;
+  font-weight: bolder;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding: 15px;
+  margin-bottom: 0px;
+}
+
+.topnav a {
+  background-color: white;
+  padding: 10px;  
+  text-decoration: none;
+  color: black;
+  margin-left: 20px;;
+}
+
+img {
+  max-width: 100%;
+  margin: 0px;
+}
+
+.tiphighlight {
+  border: 1px solid cadetblue;
+  background-color: lightgrey;
+  padding: 2px;
+}
+
+
+.fishies {
+  display: flex;
+  flex-wrap: wrap;
+  width: 70%;
+  justify-content: space-between;
+  margin-top: 0%;
+  background-color: cadetblue;
+}
+
+.fishies__card {
+  flex-basis: 30%;
+  text-align: center;
+  border: 3px solid white;
+  margin: 5px;
+  padding: 0px;
+}
+
+.highlightFish {
+  background-color: darkgoldenrod;
+  color: lightgoldenrodyellow;
+}
+
+aside{
+  width: 30%;
+  background-color: white;
+  border: 5px solid cadetblue;
+  padding: 5px;
+  margin-left: 10px;
+}
+
+.title {
+  color: cadetblue;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+
+.pictures {
+}
+
+
+@media (max-width: 600px) {
+  .fishies {
+    flex-basis: 100%;
+  }
+
+  aside {
+    flex-basis: 100%;
+  }
+}

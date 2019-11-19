@@ -1,0 +1,22 @@
+
+.quotes {
+    text-align: center;
+    padding: 2px;
+    background-color: white;
+    margin-top: 0px;
+}
+
+.locations {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.location {
+    border: 1px solid lightgray;
+    padding: 4px;
+    flex-basis: 15%;
+    text-align: center;
+    background-color: white;
+}
