@@ -18,6 +18,57 @@ const fishCollection = [
     },
 
     {
+        name: "Poop",
+        species: "Whale",
+        location: "Pacific Ocean",
+        length: 900,
+        food: ["Fish"],
+        image: "goldie-fish.jpg",
+    },
+
+    {
+        name: "Walterrrrrrrrrrrrrrrr",
+        species: "Whale",
+        location: "Pacific Ocean",
+        length: 900,
+        food: ["Fish"],
+        image: "goldie-fish.jpg",
+    },
+
+    {
+        name: "leg head",
+        species: "Whale",
+        location: "Pacific Ocean",
+        length: 900,
+        food: ["Fish"],
+        image: "goldie-fish.jpg",
+    },
+    {
+        name: "leg head",
+        species: "Whale",
+        location: "Pacific Ocean",
+        length: 900,
+        food: ["Fish"],
+        image: "goldie-fish.jpg",
+    },
+    {
+        name: "leg head",
+        species: "Whale",
+        location: "Pacific Ocean",
+        length: 900,
+        food: ["Fish"],
+        image: "goldie-fish.jpg",
+    },
+    {
+        name: "leg head",
+        species: "Whale",
+        location: "Pacific Ocean",
+        length: 900,
+        food: ["Fish"],
+        image: "goldie-fish.jpg",
+    },
+
+    {
         name: "Dragon",
         species: "Firemouth Chiclid",
         location: "Petsmart",

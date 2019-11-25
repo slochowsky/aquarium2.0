@@ -2,7 +2,7 @@
 .quotes {
     text-align: center;
     padding: 2px;
-    background-color: white;
+    background-color: lightseagreen;
     margin-top: 0px;
 }
 
@@ -16,7 +16,7 @@ article {
     border: 1px solid lightgray;
     padding: 10px;
     text-align: center;
-    background-color: white;
+    background-color: lightgreen;
     margin: 5px;
 }
 
