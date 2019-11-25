@@ -1,5 +1,5 @@
 const addMouseOverEventListeners = () => {
-    const fishCards = document.querySelectorAll(".fishies__card")
+    const fishCards = document.querySelectorAll(".fish")
 
 for (const card of fishCards) {
     card.addEventListener(

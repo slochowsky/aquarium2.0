@@ -6,17 +6,20 @@
     margin-top: 0px;
 }
 
-.locations {
+article {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-top: 15px;
+    justify-content: space-evenly;
 }
-
 .location {
+
+    margin-top: 15px;
     border: 1px solid lightgray;
-    padding: 4px;
-    flex-basis: 15%;
+    padding: 10px;
     text-align: center;
     background-color: white;
+    margin: 5px;
+}
+
+article p {
+    margin: 4px;
 }

@@ -2,18 +2,15 @@
  *  Import the initializeDetailButtonEvents function
  *  reference and then invoke it
  */
-import initializeDetailButtonEvents from './dialogs.js'
+import FishListComponent from './fish/fishList.js'
+import TipListComponent from './tips/TipList.js'
 import addMouseOverEventListeners from './highlights.js'
 import addTipMouseOverEventListeners from './borders.js'
-import { useFish } from './fishDataProvider.js'
+import initializeDetailButtonEvents from './dialogs.js'
 
-initializeDetailButtonEvents()
+
+FishListComponent()
+TipListComponent()
 addMouseOverEventListeners()
 addTipMouseOverEventListeners()
-const allOfTheFish = useFish()
-
-console.log("all of the fish:", allOfTheFish)
-
-for (const fish of allOfTheFish) {
-    console.log(fish)
-}
+initializeDetailButtonEvents()
